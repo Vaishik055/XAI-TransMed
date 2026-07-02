@@ -1,3 +1,30 @@
-backend/.venv/
-*__pycache__*
-research_code/data/
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+venv/
+.env
+
+# Flask
+backend/uploads/
+backend/results/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Python cache
+.pytest_cache/
+.mypy_cache/

@@ -192,6 +192,7 @@ def predict_explain():
             }
         })
 
+
     except Exception as e:
         print('Error in view.predict_explain:', e)
         return jsonify({'status': 'error', 'message': str(e)}), 500

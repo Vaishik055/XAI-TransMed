@@ -4,9 +4,9 @@ import Footer from '../components/Footer';
 import FeatureCard from '../components/FeatureCard';
 
 const statItems = [
-  { value: '94.7%', label: 'Classification Accuracy', icon: Activity },
+  { value: '93.18%', label: 'Classification Accuracy', icon: Activity },
   { value: '< 2s',  label: 'Inference Time',           icon: Zap },
-  { value: '4-Class', label: 'Dementia Staging',        icon: Layers },
+  { value: '2-Class', label: 'Dementia Staging',        icon: Layers },
   { value: 'XAI',   label: 'Fully Interpretable',       icon: Cpu },
 ];
 

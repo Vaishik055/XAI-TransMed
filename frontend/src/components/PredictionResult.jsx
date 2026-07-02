@@ -46,13 +46,8 @@ export default function PredictionResult({ status, data, onExplainClick, explain
                                 <h2 className="text-2xl font-bold text-white mt-0.5">{data.predictionName}</h2>
                             </div>
                         </div>
-                        <div className="text-right">
-                            <span className="text-3xl font-black text-white">
-                                {(data.confidence * 100).toFixed(0)}<span className="text-xl text-gray-400">%</span>
-                            </span>
-                            <p className="text-xs text-gray-400 uppercase tracking-wider mt-0.5">Confidence</p>
-                        </div>
                     </div>
+
 
                     {/* Metadata */}
                     <div className="text-xs text-gray-500 border-t border-gray-700/50 pt-4 space-y-0.5">

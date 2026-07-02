@@ -58,6 +58,7 @@ export const uploadAndPredictExplain = async (file) => {
           heatmapUrl: d.explainability_image_url || null,
           originalUrl: null,
           apiName: '/predict_explain_v2'
+
         }
       };
     }
